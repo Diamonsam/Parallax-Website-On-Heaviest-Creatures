@@ -1,1 +1,15 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 2.0em;
+    color: rgb(95, 95, 95);
+}
 
+.img1 {
+    background-image: url('/Images/Prehistoric-animals.jpg');
+    min-height: 100%;
+}
