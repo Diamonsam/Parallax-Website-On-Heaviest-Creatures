@@ -3,13 +3,205 @@ html {
     height: 100%;
     margin: 0;
     font-size: 16px;
-    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
     line-height: 2.0em;
     color: rgb(95, 95, 95);
 }
 
-.img1 {
+.imgbackground {
     background-image: url('/Images/Prehistoric-animals.jpg');
     min-height: 100%;
+}
+
+.imgleader {
+    background-image: url('/Images/BlueWhale.jpeg');
+    min-height: 600px;
+}
+
+.img2 {
+    background-image: url('/Images/Megalodon.jpeg');
+    min-height: 600px;
+}
+
+.img3 {
+    background-image: url('/Images/Argentinosaurus.jpeg');
+    min-height: 600px;
+}
+
+.img4 {
+    background-image: url('/Images/Shastasaurus.jpeg');
+    min-height: 600px;
+}
+
+.img5 {
+    background-image: url('/Images/Basilosaurus.jpeg');
+    min-height: 600px;
+}
+
+.img6 {
+    background-image: url('/Images/Helicoprion.jpeg');
+    min-height: 600px;
+}
+
+.img7 {
+    background-image: url('/Images/StellersSeaCow.jpeg');
+    min-height: 600px;
+}
+
+.img8 {
+    background-image: url('/Images/Indricotherium.jpeg');
+    min-height: 600px;
+}
+
+.img9 {
+    background-image: url('/Images/Mosasaurus.jpeg');
+    min-height: 600px;
+}
+
+.img10 {
+    background-image: url('/Images/Sarcosuchus.jpeg');
+    min-height: 600px;
+}
+
+.img11 {
+    background-image: url('/Images/SteppeMammoth.png');
+    min-height: 600px;
+}
+
+.img12 {
+    background-image: url('/Images/Spinosaurus.png');
+    min-height: 600px;
+}
+
+.img13 {
+    background-image: url('/Images/TyrannosaurusRex.jpeg');
+    min-height: 600px;
+}
+
+.img14 {
+    background-image: url('/Images/Kronosaurus.jpeg');
+    min-height: 600px;
+}
+
+.img15 {
+    background-image: url('/Images/Elasmotherium.jpeg');
+    min-height: 600px;
+}
+
+.img16 {
+    background-image: url('/Images/Megatherium.jpeg');
+    min-height: 600px;
+}
+
+.img17 {
+    background-image: url('/Images/Elasmasaurus.jpeg');
+    min-height: 600px;
+}
+
+.img18 {
+    background-image: url('/Images/Arctotherium.jpeg');
+    min-height: 600px;
+}
+
+.img19 {
+    background-image: url('/Images/Gigantopithecus.jpeg');
+    min-height: 600px;
+}
+
+.img20 {
+    background-image: url('/Images/Archelon.jpeg');
+    min-height: 600px;
+}
+
+.img21 {
+    background-image: url('/Images/Titanoboa.jpeg');
+    min-height: 600px;
+}
+
+.img22 {
+    background-image: url('/Images/Andrewsarchus.jpeg');
+    min-height: 600px;
+}
+
+.credits {
+    background-image: url('/Images/BlueWhale2.jpeg');
+    min-height: 100%;
+}
+
+.imgleader,
+.credits,
+.imgbackground,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12,
+.img13,
+.img14,
+.img15,
+.img16,
+.img17,
+.img18,
+.img19,
+.img20,
+.img21,
+.img22 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: lightgray;
+    color: rgb(95, 95, 95);
+    ;
+}
+
+.section-dark {
+    background-color: black;
+    color: white;
+}
+
+.transparent {
+    font-size: 40px;
+    line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imgtext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.imgtext .title {
+    background-color: black;
+    padding: 20px;
+}
+
+ul {
+    font-size: 20px;
+    line-height: 2.5em;
+    list-style: none;
+    text-align: left;
 }
